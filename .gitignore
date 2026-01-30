@@ -1,4 +1,6 @@
 node_modules
 .env
-coverage
 dist
+build
+coverage
+.DS_Store
