@@ -11,7 +11,8 @@
     "start": "node server.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "test": "echo \"No tests specified yet\" && exit 0"
   },
   "license": "MIT",
   "dependencies": {
