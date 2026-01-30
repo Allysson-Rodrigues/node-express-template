@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Template Node.js + Express + ESLint + Prettier",
   "main": "server.js",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
