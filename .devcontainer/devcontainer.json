@@ -1,11 +1,13 @@
 {
-  "name": "Node.js & Express Dev Environment",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
-  },
+  "name": "Node.js & Express - Allysson",
+  // Forçamos o 'bookworm' para evitar o erro do 'trixie'
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bookworm",
+
   "customizations": {
     "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      },
       "extensions": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
@@ -13,6 +15,5 @@
       ]
     }
   },
-  "postCreateCommand": "npm install",
-  "forwardPorts": [3000]
+  "postCreateCommand": "npm install"
 }
