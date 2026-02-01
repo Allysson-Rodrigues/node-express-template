@@ -41,7 +41,9 @@ Bash
 dev # Seu alias para npm run dev
 
 📂 Project Structure
+
 Plaintext
+
 .
 ├── src/
 │   ├── controllers/  # Business logic
@@ -50,6 +52,9 @@ Plaintext
 ├── .env              # Secrets (gitignored)
 ├── server.js         # Entry point
 └── package.json      # Scripts and type: "module"
+
+
+
 Developed with ❤️ by Allysson Rodrigues em São José dos Pinhais.
 
 ```bash
