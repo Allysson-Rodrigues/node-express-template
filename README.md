@@ -64,6 +64,7 @@ Monitor your containers: dps (Displays running containers with formatted table)
 
 Plaintext
 .
+.
 ├── src/
 │ ├── controllers/ # Business logic
 │ ├── routes/ # Route definitions
