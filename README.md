@@ -63,6 +63,8 @@ Monitor your containers: dps (Displays running containers with formatted table)
 📂 Project Structure
 
 Plaintext
+
+
 .
 ├── src/
 │   ├── controllers/    # Business logic
@@ -72,6 +74,7 @@ Plaintext
 ├── .env                # Local secrets (gitignored)
 ├── server.js           # Entry point (loads dotenv)
 └── package.json        # Scripts and type: "module"
+
 
 🤝 Contributing
 
