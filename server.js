@@ -1,12 +1,8 @@
-const express = require('express');
+import app from './src/app.js';
 
-const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  res.send('Servidor rodando 🚀');
-});
-
 app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
+  console.log('🚀 Server is flying on port ' + PORT);
+  console.log('✅ Check health at: http://localhost:' + PORT + '/api/health');
 });

@@ -1,6 +1,7 @@
 {
   "name": "node-express-template",
   "version": "1.0.0",
+  "type": "module",
   "description": "Template Node.js + Express + ESLint + Prettier",
   "main": "server.js",
   "engines": {
