@@ -10,7 +10,6 @@ A clean, standardized, and production-ready template for starting RESTful API pr
 
 - **Runtime**: [Node.js 24+](https://nodejs.org/)
 - **Framework**: [Express.js](https://expressjs.com/)
-- **Containerization**: [Docker](https://www.docker.com/)
 - **Environment**: [WSL2 (Ubuntu)](https://learn.microsoft.com/en-us/windows/wsl/install)
 
 ---
@@ -27,7 +26,7 @@ A clean, standardized, and production-ready template for starting RESTful API pr
 
 1. **Clone & Install**
    ```bash
-   git clone https://github.com/Allysson-Rodrigues/node-express-template.git
+   git clone [https://github.com/Allysson-Rodrigues/node-express-template.git](https://github.com/Allysson-Rodrigues/node-express-template.git)
    cd node-express-template
    ni # Seu alias para npm install
 Set Up Environment Crie um arquivo .env na raiz:
@@ -39,11 +38,8 @@ Run Dev Server
 
 Bash
 dev # Seu alias para npm run dev
-
 📂 Project Structure
-
 Plaintext
-
 .
 ├── src/
 │   ├── controllers/  # Business logic
@@ -52,11 +48,4 @@ Plaintext
 ├── .env              # Secrets (gitignored)
 ├── server.js         # Entry point
 └── package.json      # Scripts and type: "module"
-
-
-
 Developed with ❤️ by Allysson Rodrigues em São José dos Pinhais.
-
-```bash
-git clone [https://github.com/Allysson-Rodrigues/node-express-template.git](https://github.com/Allysson-Rodrigues/node-express-template.git)
-```
