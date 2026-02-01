@@ -26,11 +26,62 @@ A clean, standardized, and production-ready template for starting RESTful API pr
 
 ---
 
-### 🚀 Getting Started
-
+🚀 Getting Started
 To get a local copy up and running, follow these steps:
 
-#### 1. Clone the repository
+1. Clone the repository
+Bash
+git clone https://github.com/Allysson-Rodrigues/node-express-template.git
+cd node-express-template
+2. Install Dependencies
+Using your professional aliases for faster workflow:
+
+Bash
+ni  # Short for: npm install
+3. Start Development Server
+Run the application with hot-reload enabled (Nodemon):
+
+Bash
+dev # Short for: npm run dev
+🐳 Docker Workflow
+This template is fully containerized. You can build and run it using the following commands (standardized with your dotfiles):
+
+Build the image:
+
+Bash
+docker build -t node-express-template .
+Run in detached mode:
+
+Bash
+docker run -d -p 3000:3000 --name express-api node-express-template
+Monitor your containers:
+
+Bash
+dps # Displays running containers with formatted table
+📂 Project Structure
+Plaintext
+.
+├── .devcontainer/    # VS Code Dev Container settings
+├── .github/          # GitHub Actions CI/CD workflows
+├── node_modules/     # Project dependencies (git ignored)
+├── server.js         # Application entry point
+├── package.json      # Scripts and dependencies
+└── COMMANDS.md       # Quick reference for dev commands
+🤝 Contributing
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes using Conventional Commits (git commit -m 'feat: Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📝 License
+Distributed under the MIT License. See LICENSE for more information.
+
+Developed with ❤️ by Allysson Rodrigues
 
 ```bash
 git clone [https://github.com/Allysson-Rodrigues/node-express-template.git](https://github.com/Allysson-Rodrigues/node-express-template.git)
