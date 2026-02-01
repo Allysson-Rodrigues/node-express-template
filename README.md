@@ -45,6 +45,7 @@ Bash
 dev # Short for: npm run dev
 
 🐳 Docker Workflow
+
 This template is fully containerized. You can build and run it using the following commands (standardized with your dotfiles):
 
 Build the image:
@@ -61,6 +62,7 @@ Bash
 dps # Displays running containers with formatted table
 
 📂 Project Structure
+
 Plaintext
 .
 ├── .devcontainer/    # VS Code Dev Container settings
@@ -71,6 +73,7 @@ Plaintext
 └── COMMANDS.md       # Quick reference for dev commands
 
 🤝 Contributing
+
 Fork the Project
 
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
