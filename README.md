@@ -53,4 +53,3 @@ Plaintext
 └── package.json # Scripts and type: "module"
 
 Developed with ❤️ by Allysson Rodrigues em São José dos Pinhais.
-a
