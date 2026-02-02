@@ -29,7 +29,8 @@ A clean, standardized, and production-ready template for starting RESTful API pr
    git clone [https://github.com/Allysson-Rodrigues/node-express-template.git](https://github.com/Allysson-Rodrigues/node-express-template.git)
    cd node-express-template
    ni # Seu alias para npm install
-Set Up Environment Crie um arquivo .env na raiz:
+   Set Up Environment Crie um arquivo .env na raiz:
+   ```
 
 Snippet de código
 PORT=3000
@@ -41,19 +42,15 @@ dev # Seu alias para npm run dev
 
 📂 Project Structure
 
-
 Plaintext
 .
 ├── src/
-│   ├── controllers/  # Business logic
-│   ├── routes/       # Route definitions
-│   └── app.js        # Express configuration
-├── .env              # Secrets (gitignored)
-├── server.js         # Entry point
-└── package.json      # Scripts and type: "module"
-
-
-
-
+│ ├── controllers/ # Business logic
+│ ├── routes/ # Route definitions
+│ └── app.js # Express configuration
+├── .env # Secrets (gitignored)
+├── server.js # Entry point
+└── package.json # Scripts and type: "module"
 
 Developed with ❤️ by Allysson Rodrigues em São José dos Pinhais.
+a
