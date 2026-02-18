@@ -5,7 +5,7 @@
   "description": "Template Node.js + Express + ESLint + Prettier",
   "main": "server.js",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=24"
   },
   "scripts": {
     "dev": "nodemon server.js",
