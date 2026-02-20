@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Rota para a raiz (página inicial)
 app.get('/', (req: Request, res: Response) => {
-    res.send('🚀 API Node-Express de Allysson está online!');
+    res.send('API Node-Express de Allysson está online');
 });
 
 // Suas rotas modulares

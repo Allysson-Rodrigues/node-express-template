@@ -1,8 +1,8 @@
 {
-  "name": "ts-express-template",
+  "name": "backend-ts-foundations",
   "version": "1.0.0",
   "type": "module",
-  "description": "Professional TypeScript + Express Template",
+  "description": "Production-ready TypeScript + Express Foundations",
   "main": "dist/server.js",
   "engines": {
     "node": ">=24"

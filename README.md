@@ -1,55 +1,67 @@
-# Node.js Express Boilerplate 🚀
+# Backend TypeScript Foundations 🏗️
 
-![CI Status](https://github.com/Allysson-Rodrigues/node-express-template/actions/workflows/main.yml/badge.svg)
+![CI Status](https://github.com/Allysson-Rodrigues/backend-ts-foundations/actions/workflows/main.yml/badge.svg)
 
-A clean, standardized, and production-ready template for starting RESTful API projects using **Node.js** and **Express**. Built with **ES Modules** and a modular architecture.
-
----
-
-### 🛠️ Built With
-
-- **Runtime**: [Node.js 24+](https://nodejs.org/)
-- **Framework**: [Express.js](https://expressjs.com/)
-- **Environment**: [WSL2 (Ubuntu)](https://learn.microsoft.com/en-us/windows/wsl/install)
+A professional, high-performance, and production-ready foundation for scalable RESTful APIs. Built with **TypeScript**, **Node.js 24+**, and **Clean Architecture** principles.
 
 ---
 
-### ✨ Features
+### 🛠️ Core Stack
 
-- **Modular Architecture**: Organized into `routes` and `controllers`.
-- **Secure Configuration**: Environment-based settings using `.env` (git-ignored).
-- **Standardized Quality**: Pre-configured ESLint "Flat Config".
+- **Runtime**: [Node.js 24+ (LTS)](https://nodejs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Framework**: [Express.js v5+](https://expressjs.com/)
+- **Environment**: Optimized for WSL2/Linux.
+
+---
+
+### ✨ Engineering Features
+
+- **Strict Typing**: Full TypeScript implementation for maximum reliability.
+- **Modern ESM**: Native ECMAScript Modules support.
+- **Standards-First**: Pre-configured ESLint, Prettier, and EditorConfig.
+- **Performance Optimized**: Low-overhead architecture designed for high throughput.
 
 ---
 
 ### 🚀 Getting Started
 
-1. **Clone & Install**
+1. **Clone & Setup**
    ```bash
-   git clone [https://github.com/Allysson-Rodrigues/node-express-template.git](https://github.com/Allysson-Rodrigues/node-express-template.git)
-   cd node-express-template
-   ni # Seu alias para npm install
-   Set Up Environment Crie um arquivo .env na raiz:
+   git clone https://github.com/Allysson-Rodrigues/backend-ts-foundations.git
+   cd backend-ts-foundations
+   npm install
    ```
 
-Snippet de código
-PORT=3000
-NODE_ENV=development
-Run Dev Server
+2. **Environment**
+   Create a `.env` file based on your infrastructure needs:
+   ```env
+   PORT=3000
+   NODE_ENV=development
+   ```
 
-Bash
-dev # Seu alias para npm run dev
+3. **Development**
+   ```bash
+   npm run dev
+   ```
 
-📂 Project Structure
+---
 
-Plaintext
+### 📂 Architecture Overview
+
+```plaintext
 .
 ├── src/
-│ ├── controllers/ # Business logic
-│ ├── routes/ # Route definitions
-│ └── app.js # Express configuration
-├── .env # Secrets (gitignored)
-├── server.js # Entry point
-└── package.json # Scripts and type: "module"
+│   ├── controllers/ # Business logic handlers
+│   ├── routes/      # Explicit route definitions
+│   ├── app.ts       # Express application setup
+│   └── server.ts    # Application entry point
+├── dist/            # Compiled JavaScript (Gitignored)
+├── .env             # Infrastructure secrets
+└── package.json     # Scripts and dependencies
+```
 
-Developed with ❤️ by Allysson Rodrigues em São José dos Pinhais.
+---
+
+**Allysson Rodrigues**
+Backend Infrastructure & AI Engineering
